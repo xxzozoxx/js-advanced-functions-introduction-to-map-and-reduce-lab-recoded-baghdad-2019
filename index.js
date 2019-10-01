@@ -37,9 +37,10 @@ return total;
 }
 function reduceToAllTrue(sourceArray) {
   for(i = 0;i < sourceArray.length; i++){
-    if (sourceArray[i] == true)
+    if (!sourceArray[i])
     {
-      return true;
+      return false;
     }
+    
 }
 }
