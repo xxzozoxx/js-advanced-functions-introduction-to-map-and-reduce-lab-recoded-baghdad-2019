@@ -33,3 +33,5 @@ function reduceToTotal(sourceArray, startingPoint){
   for(i = 0;i < sourceArray.length; i++){
    newArr[i]  = startingPoint + sourceArray[i];
 }
+return newArr;
+}
