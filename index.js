@@ -28,10 +28,10 @@ function mapToSquare(sourceArray) {
   }
   return newArr;
 }
-function reduceToTotal(sourceArray, startingPoint){
-  let newArr= [];
+function reduceToTotal(sourceArray, startingPoint = 0){
+  let total= startingPoint;
   for(i = 0;i < sourceArray.length; i++){
-   newArr  = startingPoint + sourceArray[i];
+   total  = total + sourceArray[i];
 }
-return newArr;
+return total;
 }
