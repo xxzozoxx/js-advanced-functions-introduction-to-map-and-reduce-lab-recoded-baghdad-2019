@@ -21,3 +21,4 @@ function mapToDouble(sourceArray){
   }
   return newArr;
 }
+function 
