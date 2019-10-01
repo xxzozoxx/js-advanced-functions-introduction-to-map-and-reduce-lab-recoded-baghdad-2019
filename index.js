@@ -35,3 +35,11 @@ function reduceToTotal(sourceArray, startingPoint = 0){
 }
 return total;
 }
+function reduceToAllTrue(sourceArray) {
+  for(i = 0;i < sourceArray.length; i++){
+    if (sourceArray[i] == true)
+    {
+      return true;
+    }
+}
+}
