@@ -44,12 +44,12 @@ function reduceToAllTrue(sourceArray) {
 }
 return true;
 }
-function reduceToAllTrue(sourceArray) {
+function reduceToAnyTrue(sourceArray) {
   for(i = 0;i < sourceArray.length; i++){
-    if (!sourceArray[i])
+    if (sourceArray[i])
     {
-      return false;
+      return true;
     }
 }
-return true;
+return false;
 }
